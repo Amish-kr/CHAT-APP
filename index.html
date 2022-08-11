@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CHAT APP</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="JS/client.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="bg"></div>
+    <nav>
+        <h1 class = "name">Welcome to CHAT - APP</h1>
+    </nav>
+
+    <div class="container">
+        <div class="message left">THIS SIDE INCOMING MESSAGES</div>
+        <div class="message right">THIS SIDE YOUR MESSAGES</div>
+    </div>
+
+    <div class="send">
+
+
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send</button>
+        </form>
+ 
+    </div>
+</body>
+
+</html>
